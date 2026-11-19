@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "python-venv-001",
+    "document_id": "python/library/venv.html",
+    "text": "The venv module creates lightweight virtual environments. Each virtual environment has its own Python executable and its own set of installed packages. Create one with python -m venv followed by the target directory.",
+    "technology": "python",
+    "title": "venv - Creation of virtual environments",
+    "section": "Library > venv",
+    "source_url": "https://docs.python.org/3.12/library/venv.html",
+    "doc_version": "3.12",
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "python-list-comprehensions-001",
+    "document_id": "python/tutorial/datastructures.html",
+    "text": "A list comprehension builds a new list in a single expression: brackets containing an expression followed by a for clause, optionally followed by if clauses that filter the elements.",
+    "technology": "python",
+    "title": "Data Structures",
+    "section": "Tutorial > Data Structures > List Comprehensions",
+    "source_url": "https://docs.python.org/3.12/tutorial/datastructures.html",
+    "doc_version": "3.12",
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "fastapi-path-params-001",
+    "document_id": "fastapi/tutorial/path-params.md",
+    "text": "To declare a path parameter, put its name in curly braces in the route path, like /items/{item_id}. FastAPI passes the value to the function argument with the same name and converts it to the declared type, for example int.",
+    "technology": "fastapi",
+    "title": "Path Parameters",
+    "section": "Tutorial > Path Parameters",
+    "source_url": "https://fastapi.tiangolo.com/tutorial/path-params/",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "fastapi-query-params-001",
+    "document_id": "fastapi/tutorial/query-params.md",
+    "text": "Function parameters that are not part of the path are interpreted as query parameters, read from the URL after the question mark. A parameter with a default value is optional.",
+    "technology": "fastapi",
+    "title": "Query Parameters",
+    "section": "Tutorial > Query Parameters",
+    "source_url": "https://fastapi.tiangolo.com/tutorial/query-params/",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "docker-dockerfile-001",
+    "document_id": "docker/reference/dockerfile.md",
+    "text": "A Dockerfile is a text file of instructions used to build an image. FROM sets the base image, COPY adds files from the build context, RUN executes commands during the build and CMD defines the default command of the container.",
+    "technology": "docker",
+    "title": "Dockerfile reference",
+    "section": "Reference > Dockerfile",
+    "source_url": "https://docs.docker.com/reference/dockerfile/",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "docker-compose-001",
+    "document_id": "docker/compose/index.md",
+    "text": "Docker Compose defines and runs multi-container applications. Services, networks and volumes are described in a YAML file, and docker compose up starts all the services together.",
+    "technology": "docker",
+    "title": "Docker Compose",
+    "section": "Compose > Overview",
+    "source_url": "https://docs.docker.com/compose/",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "git-branch-001",
+    "document_id": "git/docs/git-branch.html",
+    "text": "A branch is a movable pointer to a commit. git branch lists, creates or deletes branches, and git switch -c creates a new branch and moves to it.",
+    "technology": "git",
+    "title": "git-branch",
+    "section": "Reference > git branch",
+    "source_url": "https://git-scm.com/docs/git-branch",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "git-commit-001",
+    "document_id": "git/docs/git-commit.html",
+    "text": "git commit records a snapshot of the staged changes in the repository history, with a message describing the change. Files must first be added to the staging area with git add.",
+    "technology": "git",
+    "title": "git-commit",
+    "section": "Reference > git commit",
+    "source_url": "https://git-scm.com/docs/git-commit",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "kubernetes-pods-001",
+    "document_id": "kubernetes/concepts/workloads/pods.md",
+    "text": "A Pod is the smallest deployable unit in Kubernetes. It groups one or more containers that share network and storage resources and are always scheduled together on the same node.",
+    "technology": "kubernetes",
+    "title": "Pods",
+    "section": "Concepts > Workloads > Pods",
+    "source_url": "https://kubernetes.io/docs/concepts/workloads/pods/",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  },
+  {
+    "chunk_id": "kubernetes-deployments-001",
+    "document_id": "kubernetes/concepts/workloads/controllers/deployment.md",
+    "text": "A Deployment declares the desired state of an application, such as the container image and the number of replicas. The Deployment controller creates and updates Pods to match that state and supports rolling updates.",
+    "technology": "kubernetes",
+    "title": "Deployments",
+    "section": "Concepts > Workloads > Deployments",
+    "source_url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+    "doc_version": null,
+    "metadata": {"mock": true}
+  }
+]
