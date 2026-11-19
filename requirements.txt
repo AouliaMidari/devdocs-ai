@@ -1,0 +1,3 @@
+# Dependances d'execution de DevDocs AI
+# Versions figees pour la reproductibilite (Python 3.12)
+pydantic==2.14.4

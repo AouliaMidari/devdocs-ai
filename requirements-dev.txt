@@ -1,0 +1,4 @@
+# Dependances de developpement : tests et qualite du code
+# La ligne -r inclut automatiquement les dependances d'execution
+-r requirements.txt
+pytest==9.2.0
